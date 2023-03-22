@@ -26,19 +26,30 @@
           Registrate al curso de finanzas para emprendedores
         </h3>
         <div class="row g-3 form-container">
-          <div class="col-auto">
-            <input type="text" class="form-control" placeholder="Nombre" />
-          </div>
-          <div class="col-auto">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="correo@email.com"
-            />
-          </div>
-          <div class="col-auto">
-            <button class="btn btn-primary">Registrarme</button>
-          </div>
+          <form action="" class="needs-validation" novalidate>
+            <div class="row g-3 form-container">
+              <div class="col-auto">
+                <input type="text" class="form-control" placeholder="Nombre" required/>
+                <div class="invalid-feedback">
+                  Ingresa un nombre porfavor
+                </div>
+              </div>
+              <div class="col-auto">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="correo@email.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Ingresa un correo válido porfavor
+                </div>
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Registrarme</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </header>
@@ -166,21 +177,30 @@
             <h3 class="subtitle--2 mb-4">
               Y entonces, qué esperas para registrarte al curso de finanzas para emprededores
             </h3>
-            <div class="row g-3 form-container">
-              <div class="col-auto">
-                <input type="text" class="form-control" placeholder="Nombre" />
+            <form action="" class="needs-validation" novalidate>
+              <div class="row g-3 form-container">
+                <div class="col-auto">
+                  <input type="text" class="form-control" placeholder="Nombre" required/>
+                  <div class="invalid-feedback">
+                    Ingresa un nombre porfavor
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="correo@email.com"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Ingresa un correo válido porfavor
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-primary" type="submit">¡Quiero registrarme!</button>
+                </div>
               </div>
-              <div class="col-auto">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="correo@email.com"
-                />
-              </div>
-              <div class="col-auto">
-                <button class="btn btn-primary">¡Quiero registrarme!</button>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
